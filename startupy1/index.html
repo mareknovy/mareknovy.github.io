@@ -37,13 +37,16 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 <section>
-    <h1>Jak na startupy?</h1>
+    <h1>3 kroky</h1>
+    <h2>v životě</h1>
+    <h1>startupu</h1>
+    <p>&nbsp; </p>
     <p> Marek Nový, Seznam.cz </p>
 </section>
 <section>
-    <h1>3 kroky</h1>
-	<h2>na cestě</h2>
-    <h1>ke hvězdám</h1> 
+    <h2>1. Proč?</h2> 
+    <h2>2. Co?&nbsp;&nbsp;</h2> 
+    <h2>3. Jak?&nbsp;</h2> 
 </section>
 <section>
     <section>
@@ -108,39 +111,47 @@
     </section>    
     <section>
         <h1>Existující trh</h1>
-    </section>    
-    <section>
-        <h1>Nikou</h1>
-        <h2>resegmentovaný trh</h2>
     </section> 
     <section>
         <h1>Cenou</h1>
         <h2>resegmentovaný trh</h2>  
     </section> 
     <section>
-        <h1>Vícestranné trhy</h1>
-    </section>
-    <section> 
-        <img class="stretch" src="ecosystem.png">
-    </section>  
-</section>                 
+        <h1>Nikou</h1>
+        <h2>resegmentovaný trh</h2>
+    </section> 
+</section>
 <section>
-    <h1>3 kroky</h1>
-	<h2>na cestě</h2>
-	<h1>ke hvězdám</h1> 
+    <section>
+        <h1>Platformy</h1>
+        <ul> 
+            <li>Vícestranný trh</li> 
+            <li>Síťový efekt</li> 
+        </ul>
+    </section>
+    <section>
+        <ul> 
+            <li>Jak motivovat producenty?</li> 
+            <li>Jak motivovat konzumenty?</li> 
+            <li>Jak motivovat vytváření spojení?</li>
+        </ul>
+    </section>
+</section>                          
+<section>
+    <h2>3 kroky v životě startupu</h2>
 </section>              
 <section>                
     <section>
-        <h1>I. Hledání</h1>
+        <h1>I. Proč</h1>
+        <h2>má firma existovat?</h2>
     </section>   
     <section>
         <h2>Kdo jsou zákazníci?</h2>
-    </section>
-    <section>
         <h2>Jaký mají problém?</h2>
     </section>
     <section>
-        <h2>Bude o řešení zájem?</h2>
+        <h2>Máme co nabídnout?</h2>
+        <h2>Proč zrovna my?</h2>
     </section>
     <section>
         <h2>Problem - Solution Fit</h2>
@@ -204,16 +215,13 @@
 </section>
 <section>                
     <section>
-        <h1>II. Ověřování</h1>
+        <h1>II. Co</h1>
+        <h2>bude firma nabízet?</h2>
     </section> 
     <section>
-        <h2>Bude o produkt zájem?</h2>
-    </section>
-    <section>
-        <h2>Budou ochotni platit?</h2>
-    </section>
-    <section>
-        <h2>Jak budeme distribuovat?</h2>
+        <h2>Hodnotová propozice</h2>
+        <h2>Distribuční kanály</h2>
+        <h2>Vztahy se zákazníky</h2>
     </section>
     <section>
         <h2>Product - Market Fit</h2>
@@ -227,8 +235,9 @@
     </section>
     <section>
         <h3>hledáme:</h3>
-        <h2>distribuční kanály,</h2>
-        <h3>jak dostat produkt k zákazníkovi</h3>
+        <h2>hodnotovou propozici,</h2>
+        <h2>distribuční kanály</h2>
+        <h2>a vztahy se zákazníky</h2>
     </section>
     <section>
         <h3>cíl:</h3>
@@ -246,21 +255,14 @@
 </section>
 <section>    
     <section>
-        <h1>III. Škálování</h1>
-    </section>
-    <section>
-        <h3>Je obchodní model</h3>
-        <h1>opakovatelný</h1>
-        <h1>a škálovatelný?</h1>
+        <h1>III. Jak</h1>
+        <h2>to dělat škálovatelně?</h2>
     </section>
     <section>
         <h2>Jak zákazníky získávat?</h2>
     </section>
     <section>
         <h2>Jak si zákazníky udržet?</h2>
-    </section>
-    <section>
-        <h2>Může to vydělávat?</h2>
     </section>
     <section> 
         <img class="stretch" src="AAARR.png">
@@ -285,10 +287,10 @@
     </section>
 </section>
 <section> 
-    <img class="stretch" src="3kroky.png">
+    <img class="stretch" src="3kroky-2.png">
 </section>
 <section>
-    <h2>Inspirace</h2>
+    <h2>Inspirace a kredity</h2>
     <ul> 
         <li>Steven Blank: The Four Steps to the Epiphany (2006, 2013), <a href="http://steveblank.com/">web</a> </li> 
         <li>Eric Ries: The Lean Startup (2011)</li> 
@@ -321,7 +323,7 @@
 				progress: true,
 				history: true,
 				center: true,
-                margin: 0.1,
+
 				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
 				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
 
@@ -336,9 +338,8 @@
 					{ src: '../revealjs/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 					{ src: '../revealjs/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 					{ src: '../revealjs/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-					{ src: '../revealjs/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
-                    { src: '../revealjs/socket.io/socket.io.js', async: true },
-                    { src: '../revealjs/plugin/notes-server/client.js', async: true }
+					{ src: '../revealjs/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+                   
 				]
 			});
 
